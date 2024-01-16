@@ -39,7 +39,7 @@ const Home: NextPage = () => {
                 </h1>
                 <hr className="h-px bg-gray-700 border-1 dark:bg-gray-700" />
                 <iframe
-                    src="https://www.modelscope.cn/inner/studio/gradio?backend_url=/api/v1/studio/damo/ReplaceAnything/gradio/&sdk_version=3.47.1&t=1705384256285&studio_token=9a0ff30f-f820-4382-b6c1-de5b365cbc9e"
+                    src={process.env.Replace_Anything_URL}
                     style={{ overflow: 'hidden', width: '100%', height: '1337px' }} />
             </main>
             <CnFaq />
