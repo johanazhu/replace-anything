@@ -30,7 +30,7 @@ const Home: NextPage = () => {
       <Header />
 
       <main className="flex flex-1 w-full flex-col items-center justify-center text-center mt-2 sm:my-16">
-        <h1 className="sm:text-4xl text-2xl max-w-1xl font-bold text-slate-900">
+        <h1 className="sm:text-4xl text-2xl max-w-1xl font-bold text-slate-900 my-2">
           Replace you{" "}
           <span className="bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500 bg-clip-text text-transparent">
             Anything

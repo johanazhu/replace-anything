@@ -31,13 +31,12 @@ const Home: NextPage = () => {
 
             <Header />
             <main className="flex flex-1 w-full flex-col items-center justify-center text-center mt-2 sm:my-16">
-                <h1 className="sm:text-4xl text-2xl max-w-1xl font-bold text-slate-900">
+                <h1 className="sm:text-4xl text-2xl max-w-1xl font-bold text-slate-900 my-2">
                     在几秒钟内{" "}
                     <span className="bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500 bg-clip-text text-transparent">
                         替换任何东西
                     </span>{" "}
                 </h1>
-                <hr className="h-px bg-gray-700 border-1 dark:bg-gray-700" />
                 <iframe
                     src={process.env.Replace_Anything_URL}
                     style={{ overflow: 'hidden', width: '100%', height: '1337px' }} />
