@@ -14,6 +14,9 @@ Institute for Open Vision, Alibaba Group
 ## <a href='https://aigcdesigngroup.github.io/replace-anything/'><img src='https://img.shields.io/badge/Project-Page-Green'></a> <a href=''><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a>
 
 **<span style="color:red">
+News</span>**: Now you can try our ReplaceAnything v1.0 on [replace-anything.fun](https://replace-anything.fun/ ) ( in Web ) . Enjoy it and have fun!
+
+**<span style="color:red">
 News</span>**: Now you can try our ReplaceAnything v1.0 on <a href = "https://huggingface.co/spaces/modelscope/ReplaceAnything">HuggingFace space</a> ( in English ) . Enjoy it and have fun!
 
 **<span style="color:red">
@@ -30,18 +33,16 @@ Feel free to share your interesting results with us. If you have any questions o
 
 ---
 
-## Clothing replacement (masked region is strictly retained):
 
-![replaceanything](public/images/g1.png)
+## Clothing replacement (masked region is strictly retained):
+![replaceanything](public/images/g0.png)
 
 ## Background replacement for ID photo and family photo (masked region is strictly retained):
-
 ![replaceanything](public/images/g2.png)
 
 ## Human replacement (masked region is strictly retained):
-
 ![replaceanything](public/images/g3.png)
 
 ## Background replacement (masked region is strictly retained):
-
 ![replaceanything](public/images/g4.png)![replaceanything](public/images/g5.png)
+
