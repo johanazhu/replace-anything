@@ -8,6 +8,7 @@ import DropDown, { VibeType } from "../components/DropDown";
 import DropDown2, { VibeType2 } from "../components/DropDown2";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
+import Faq from "../components/Faq";
 import Github from "../components/GitHub";
 import LoadingDots from "../components/LoadingDots";
 import ResizablePanel from "../components/ResizablePanel";
@@ -98,6 +99,7 @@ const Home: NextPage = () => {
           src="https://modelscope-replaceanything.hf.space"
           style={{ overflow: 'hidden', width: '100%', height: '1337px' }} />
       </main>
+      <Faq />
       <Footer />
     </div>
   );
