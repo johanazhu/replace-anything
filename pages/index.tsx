@@ -20,11 +20,7 @@ const Home: NextPage = () => {
   return (
     <div className="flex mx-auto flex-col items-center justify-center py-2 min-h-screen">
       <Head>
-        <title>Replace Anything | 千变万换 | 替换任何东西</title>
-        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-        <link rel="manifest" href="/site.webmanifest"></link>
+        <title>ReplaceAnything as you want: Ultra-high quality content replacement</title>
       </Head>
 
       <Header />

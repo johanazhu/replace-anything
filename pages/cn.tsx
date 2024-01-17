@@ -21,12 +21,17 @@ const Home: NextPage = () => {
         <div className="flex mx-auto flex-col items-center justify-center py-2 min-h-screen">
             <Head>
                 <title>
-                    Replace Anything | 千变万换 | 替换任何东西
+                    ReplaceAnything as you want | 千变万换 | 替换任何东西
                 </title>
-                <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-                <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-                <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-                <link rel="manifest" href="/site.webmanifest"></link>
+                <meta
+                    name="description"
+                    content="在严格保持某个“物体ID”不变的情况下生成新的内容有着很大的市场需求，同时也是具有挑战性的。为此，我们提出了ReplaceAnything框架。它可以用于很多场景，比如人体替换、服装替换、物体替换以及背景替换等等"
+                />
+                <meta
+                    name="keywords"
+                    content="人工智能图像编辑, 图片元素替换, 在线照片编辑器, 定制图像处理, 背景移除工具, 创意照片编辑, 高级图像技术, 用户友好的编辑平台, 照片个性化, 快速图像处理, ReplaceAnything, AI照片定制, 数字图像编辑器, 网络照片编辑器, 图像编辑软件" />
+
+
             </Head>
 
             <Header />
