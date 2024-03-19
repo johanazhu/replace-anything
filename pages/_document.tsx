@@ -58,7 +58,7 @@ class MyDocument extends Document {
                 />
                 <script
                   async src="https://analytics.azhubaby.com/script.js"
-                  data-website-id="c64ce814-2df1-4637-a53b-e07564f1b746"></script>
+                  data-website-id="eb36916b-0291-41fa-a57d-c26cb13c46e1"></script>
               </>
             )
           }
